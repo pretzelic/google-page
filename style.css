@@ -1,0 +1,59 @@
+.services {
+    height: 50px;
+}
+
+.services ul {
+    float: right;
+}
+
+.services ul li{
+    float: left;
+    padding: 5px;
+    list-style: none;
+}
+
+.main {
+    padding-top: 15%;
+    text-align: center;
+}
+
+#logo {
+    width: 350px;
+    display: inline-block; 
+}
+
+#search-bar {
+    border: 1px solid gray;
+    margin-left: 35%;
+    margin-right: 35%;  
+    width: 30%;
+    border-radius: 100px;
+
+}
+
+#search-bar form input{
+    border: none;
+    width: 92%;
+    height: 100%;
+    margin-left: 0;
+    height: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#search-bar form input:focus{
+    outline: none;
+}
+
+.search-buttons {
+    text-align: center;
+}
+
+.search-page {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right:20px;
+}
