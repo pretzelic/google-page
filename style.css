@@ -143,10 +143,11 @@ a {
 
 #results-logo {
     height: 100%;
-    width: 10%;
+    width: 8%;
     display:inline-block;
     float:left;
     margin-top: 1%;
+    margin-left: 2%;
 }
 
 #top {
@@ -157,7 +158,7 @@ a {
 
 #contents {
     float: left;
-    width: 90%;
+    width: 88%;
 }
 
 #contents ul {
@@ -172,16 +173,20 @@ a {
 
 #contents ul li:hover {
     color:blue;
+    padding: 1px;
+    border-bottom: #1a0dab;
 }
 
 #settings {
-    margin-left: 50px;
+    float: right;
+    margin-top: 0;
+    margin-right: 60%;
 }
 
 #contents form {
-    border: 1px solid rgba(90, 90, 90, 0.5);
+    border: 1px solid rgba(146, 146, 146, 0.404);
     border-radius: 100px;
-    width:50%;
+    width:40%;
     padding: 5px;
     margin: 10px 0px;
 }
@@ -199,24 +204,38 @@ a {
 
 .results {
     margin-left: 10%;
+    margin-right: 55%;
+}
+
+.results p {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 #item {
     margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 #item h1 {
     font-size: 30px;
-    color: #0e085e;
+    color: #1a0dab;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     margin:0;
+    margin-bottom: 5px;
 }
 
 #item a {
-    margin:0.5%;
+    margin: 5px 0px;
+    color: green;
 }
 
 #item p {
+    padding-top: 5px;
     margin:0;
+    color: rgba(0, 0, 0, 0.85);
 }
