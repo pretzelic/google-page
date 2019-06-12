@@ -3,6 +3,10 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
 .services {
     height: 50px;
     margin-right: 5px;
@@ -10,7 +14,7 @@ body {
 
 .services ul {
     float: right;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 
 .services ul li{
@@ -29,12 +33,25 @@ body {
     color: rgba(0,0,0,0.87); 
 }
 
+.services ul li:hover {
+    text-decoration: underline !important;
+}
+
 #waffle{
     width:20px;
 }
 
+#sign-in {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: blue;
+    color:white;
+    font-weight: 700;
+}
+
 .main {
-    padding-top: 15%;
+    padding-top: 8%;
     text-align: center;
 }
 
@@ -66,11 +83,15 @@ body {
     outline: none;
 }
 
+#search-bar:focus-within {
+    box-shadow: 2px 2px 10px #d8d8d8;
+}
+
 .search-buttons {
     text-align: center;
 }
 
-.search-page {
+.search-page{
     list-style: none;
     display: inline-block;
     border: none;
@@ -97,7 +118,6 @@ body {
 #country {
     border-bottom: 1px solid rgb(228, 228, 228);
     padding-left: 20px;
-    font-weight: 100;
     font-size: 15px;
     
 }
@@ -105,7 +125,6 @@ body {
 #left, #right{
     list-style: none;
     margin-top: 0px;
-    font-weight: 100;
 }
 
 #left, #left li {
@@ -118,4 +137,86 @@ body {
     padding: 10px;
 }
 
+#icons {
+    width:10px;
+}
 
+#results-logo {
+    height: 100%;
+    width: 10%;
+    display:inline-block;
+    float:left;
+    margin-top: 1%;
+}
+
+#top {
+    display: block;
+    height: 10%;
+    border-bottom: 1px solid rgba(78, 78, 78, 0.11);
+}
+
+#contents {
+    float: left;
+    width: 90%;
+}
+
+#contents ul {
+    display: inline;
+    padding:0px;
+}
+
+#contents ul li{
+    display: inline;
+    margin: 7px;
+}
+
+#contents ul li:hover {
+    color:blue;
+}
+
+#settings {
+    margin-left: 50px;
+}
+
+#contents form {
+    border: 1px solid rgba(90, 90, 90, 0.5);
+    border-radius: 100px;
+    width:50%;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+#contents form input {
+    border: none;
+    width:90%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#contents form input:focus {
+    outline:none;
+}
+
+.results {
+    margin-left: 10%;
+}
+
+#item {
+    margin-bottom: 3%;
+}
+
+#item h1 {
+    font-size: 30px;
+    color: #0e085e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin:0;
+}
+
+#item a {
+    margin:0.5%;
+}
+
+#item p {
+    margin:0;
+}
